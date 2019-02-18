@@ -1,0 +1,25 @@
+# Conda package metadata for IEL
+
+package:
+  name: Iel
+  version: "0.1"
+
+build:
+  number: 1
+  script: python setup.py install
+
+
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+about:
+  
+  license: Apache License, Version 2.0
+  license_file: LICENSE
+  summary: A framework for building intelligence extraction systems.
+
